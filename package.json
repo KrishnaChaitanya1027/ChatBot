@@ -1,0 +1,28 @@
+{
+  "name": "prog8110-assignment-1",
+  "version": "1.0.0",
+  "description": "assignment 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbenner2/ChatbotStart.git"
+  },
+  "keywords": [
+    "chatbot",
+    "fast",
+    "food",
+    "order"
+  ],
+  "author": "Regan Benner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rbenner2/ChatbotStart/issues"
+  },
+  "homepage": "https://github.com/rbenner2/ChatbotStart#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
