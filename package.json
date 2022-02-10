@@ -4,11 +4,13 @@
   "description": "assignment 1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rbenner2/ChatbotStart.git"
+    "url": "https://github.com/KrishnaChaitanya1027/ChatBot.git"
   },
   "keywords": [
     "chatbot",
@@ -16,13 +18,16 @@
     "food",
     "order"
   ],
-  "author": "Regan Benner",
+  "author": "Krishna Chaitanya",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rbenner2/ChatbotStart/issues"
+    "url": "https://github.com/KrishnaChaitanya1027/ChatBot/issues"
   },
-  "homepage": "https://github.com/rbenner2/ChatbotStart#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "engine.io": "*",
+    "express": "*",
+    "socket.io": "*",
+    "twilio": "*",
+    "underscore": "*"
   }
 }
